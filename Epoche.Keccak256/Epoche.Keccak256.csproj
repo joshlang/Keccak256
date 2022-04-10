@@ -7,12 +7,12 @@
 		<Authors>Josh Lang</Authors>
 		<Description>Keccak256 Hash Calculator (Ethereum's Digest Algorithm)</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/joshlang/Epoche.Keccak256</RepositoryUrl>
+		<RepositoryUrl>https://github.com/joshlang/Keccak256</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>Keccak256; Ethereum</PackageTags>
 		<PackageId>Keccak256</PackageId>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-		<PackageProjectUrl>https://github.com/joshlang/Epoche.Keccak256</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/joshlang/Keccak256</PackageProjectUrl>
 		<Version>1.0.0</Version>
 		
 	</PropertyGroup>
