@@ -123,11 +123,6 @@ namespace Epoche
                 PadAndSwitchToSqueezingPhase();
             }
 
-            if ((FixedOutputLength & 7L) != 0L)
-            {
-                throw new InvalidOperationException("outputLength not a multiple of 8");
-            }
-
             long i = 0;
             while (i < FixedOutputLength)
             {
