@@ -54,9 +54,9 @@ namespace Epoche
             return hash;
         }
 
-        public static string ComputeEthereumFunctionSelector(string input, bool prefix0x = true)
+        public static string ComputeEthereumFunctionSelector(string functionSignature, bool prefix0x = true)
         {
-            var hash = ComputeHash(input);
+            var hash = ComputeHash(functionSignature);
             string s = prefix0x ? "0x" : "";
             s += hash[0].ToString("x2");
             s += hash[1].ToString("x2");
